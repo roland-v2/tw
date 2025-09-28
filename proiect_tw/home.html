@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="project_tw_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="dslr-camera.png">
+    <title>Galerie Foto - HOME</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html" id="cameraHome"><img src="dslr-camera.png" alt="Logo"></a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="b+a.html">Before & After</a></li>
+                <li class="dropdown">
+                    <a href="" class="droopdown-toggle" id="droopdown-toggle">More</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id = "divclock">
+    <canvas id="clockCanvas" width="100" height="100"></canvas>
+    <h3 id="clock">Live Clock</h3>
+    </div>
+    <main class="home">
+        <div class="title-home">
+            <div id="clickDiv">
+                <label>Enter you name:</label>
+                <input type="text" id="myInput">
+                <h1 id="hello"></h1>
+            </div>
+            <h1>Welcome to Roland_v2 Photography</h1>
+            <h2>Capturing Moments, Creating Memories</h2>
+        </div>
+        <p>Welcome to Roland_v2 Photography, where we believe that every picture tells a story. We specialize in capturing life’s precious moments, from weddings and portraits to nature and event photography. Our passion is to make your memories timeless and unique.</p>
+        <h3>Explore Our Work</h3>
+        <p>We invite you to browse through our diverse portfolio. Whether you’re looking for stunning landscapes, heartwarming portraits, or elegant captures, you’ll find a collection that reflects our creativity, attention to detail, and commitment to quality.</p>
+        <ul>
+            <li class="info"><b>Portraits:</b> Capture the essence of each individual in beautifully crafted portraits.</li>
+            <li class="info"><b>Landscapes:</b> Discover breathtaking scenes from nature around the world.</li>
+            <li class="info"><b>Much more</b></li>
+        </ul>
+        <div><a href="gallery.html" class="button">Gallery</a></div>
+        <h3>Why Choose Us</h3>
+        <ul>
+            <li class="info"><b>Professional Quality:</b> Years of experience and expertise in the field.</li>
+            <li class="info"><b>Attention to Detail:</b> We care about each shot, every moment, and all the details in between.</li>
+            <li class="info"><b>Creative Vision:</b> Our unique perspective brings life to your photos.</li>
+            <li class="info"><b>Personalized Service:</b> We work closely with you to capture exactly what you envision.</li>
+        </ul>
+        <div><a href="b+a.html" class="button">B & A</a></div>
+        <h3>Book Your Session</h3>
+        <p>Ready to capture your special moments? Let’s bring your vision to life! Visit our <span><a href="contact.html">Contact</a></span> page to get started or reach out to us directly.</p>
+        <div><a href="contact.html" class="button">Contact</a></div>
+        <h3>Follow Us on Social Media</h3>
+        <p>Stay connected with Roland_v2 Photography to see our latest projects, behind-the-scenes shots, and new collections:</p>
+        <ul>
+            <li class="info1">Instagram: @roland_v2</li>
+            <li class="info1">Facebook: @roland_v2_photography</li>
+            <li class="info1">LinkedIn: @Roland_Boldesco</li>
+        </ul>
+        <p>Thank you for visiting Roland_v2 Photography. We’re excited to work with you and create memories you’ll cherish forever.</p>
+        <label>Please rate our website from 1 to 100</label>
+        <input type="range" id="ratingInput" min="1" max="100" value="50">
+        <p id="ratingValue">Rating: 50</p>
+    </main>
+    <button id="changeColorButton">Change Text Color</button>
+    <div id="text">text blah blah blah ... change color WoW ...</div>
+    <footer>
+        <h3>FOLLOW</h3>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/roland_v2/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <p>&copy; 2024 Galerie Foto TW - Boldesco Roland. Toate drepturile rezervate.</p>
+    </footer>
+    <script type="text/javascript" src="proiect_tw_script.js" defer></script>
+    <script type="text/javascript" src="home.js" defer></script>
+</body>
+</html>
