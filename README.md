@@ -1,5 +1,5 @@
 # tw
-Tehnici Web
+Web Technologies
 
 Personal Photography Portfolio Website
  - HTML, CSS, Javascript
