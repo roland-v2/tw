@@ -10,5 +10,5 @@ I wanted to test my knowledge on the Web department.
 ---
 
 Features
-Home, Gallery, Before & After, Contact, About pages
+Home, Gallery, Before & After, Contact, About pages. 
 Every page has a unique style and is built to stand out in a different way.
